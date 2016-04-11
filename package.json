@@ -13,6 +13,9 @@
     "highlight",
     "keynote"
   ],
+  "bin": {
+    "hcfk": "./bin/cli.js"
+  },
   "author": "z.w",
   "license": "MIT",
   "bugs": {
