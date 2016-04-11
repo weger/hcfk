@@ -3,8 +3,8 @@ highlight code for keynote
 
 ## Installing
 ````bash
-// 安装依赖 brew & highlight
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"    // brew
+// install brew & highlight
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"    // brew
 $ brew install highlight    // highlight
 ````
 
