@@ -1,6 +1,6 @@
 {
   "name": "hcfk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "highlight code for keynote",
   "scripts": {
     "test": "npm run test"

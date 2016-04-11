@@ -13,15 +13,13 @@ $ [sudo] npm install hcfk -g
 ````
 
 ## Basic Usage
-````
-// for mac
-$ CMD + C    // copy your code
+1. `[cmd-c]` copying your code to the pasteboard
+2. run command
 
-$ hcfk
-
-$ CMD + V
-
-````
+    ````
+    $ hcfk
+    ````
+3. `[cmd-v]` pasting to the keynote
 
 ## Requires
 - [brew](http://brew.sh/index_zh-cn.html)
