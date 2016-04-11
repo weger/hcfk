@@ -1,0 +1,22 @@
+{
+  "name": "hcfk",
+  "version": "0.0.1",
+  "description": "highlight code for keynote",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weger/hcfk.git"
+  },
+  "keywords": [
+    "highlight",
+    "keynote"
+  ],
+  "author": "z.w",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weger/hcfk/issues"
+  },
+  "homepage": "https://github.com/weger/hcfk#readme"
+}
