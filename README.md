@@ -223,7 +223,7 @@ Yaiff                         : yaiff
 Yang                          : yang
 Zonnon                        : znn
 ````
-## styles
+## Styles
 ![colour style](screenshots.png)
 
 ## Requires
