@@ -35,12 +35,8 @@ describe('exec', function () {
         expect(hcfk.exec()).is.be.function;
     });
 
-    it('s is true', function () {
-        expect(hcfk.exec({'s': true})).is.be.function;
-    });
-
-    it('_ is true', function () {
+    it('argument is "html -s neon"', function () {
         expect(hcfk.exec({_: true})).is.be.function;
-        expect(hcfk.exec({_: 'html'})).is.be.function;
+        expect(hcfk.exec({_: 'html', 's': 'neon'})).is.be.function;
     });
 });

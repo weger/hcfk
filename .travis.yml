@@ -14,9 +14,6 @@ cache:
   directories:
     - node_modules
 before_install:
-  - alias pbcopy='xsel --clipboard --input'
-  - alias pbpaste='xsel --clipboard --output'
-  - sudo apt-get install highlight
   - npm install
 script:
   - npm test

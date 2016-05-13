@@ -26,7 +26,7 @@ describe('parse args', function () {
     });
     describe('empty arg', function () {
         it('should return success', function () {
-            expect(cli.parse(['', '', ''])).to.equal('Success!');
+            expect(cli.parse(['', '', ''])).to.be.function;
         });
     });
     describe('-help or -h', function () {
