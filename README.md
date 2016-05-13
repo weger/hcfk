@@ -1,4 +1,6 @@
 # hcfk
+[![Build Status](https://travis-ci.org/weger/hcfk.svg)](https://travis-ci.org/weger/hcfk) [![Coverage Status](https://coveralls.io/repos/github/weger/hcfk/badge.svg?branch=master)](https://coveralls.io/github/weger/hcfk?branch=master)
+
 highlight code for keynote
 
 ## Installing
