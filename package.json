@@ -3,7 +3,8 @@
   "version": "1.0.2",
   "description": "highlight code for keynote",
   "scripts": {
-    "test": "npm run test"
+    "test": "node ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --colors ./test/*.test.js",
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,10 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^1.1.5"
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "cz-conventional-changelog": "^1.1.5",
+    "istanbul": "^0.4.3"
   },
   "config": {
     "commitizen": {
